@@ -9,7 +9,7 @@ const fs = require("fs")
 require('dotenv').config(); 
 
 //================= { SETTINGS } =================\\
-global.prefix = process.env.PREFIX || "."; // your desired prefix symbol,emoji, leave blank for no prefix
+global.prefix = process.env.PREFIX || ""; // your desired prefix symbol,emoji, leave blank for no prefix
 global.owner = process.env.OWNER_NUMBER || "2347036214381"; // owner number 
 global.sudo = process.env.SUDO  || " ";
 global.ownername = process.env.OWNER_NAME || "Ednut"; //set bot owner name here 
