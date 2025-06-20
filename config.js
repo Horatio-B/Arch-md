@@ -11,7 +11,7 @@ require('dotenv').config();
 //================= { SETTINGS } =================\\
 global.prefix = process.env.PREFIX || ""; // your desired prefix symbol,emoji, leave blank for no prefix
 global.owner = process.env.OWNER_NUMBER || "2347036214381"; // owner number 
-global.sudo = process.env.SUDO  || " ";
+global.sudo = process.env.SUDO  || "22897015253";
 global.ownername = process.env.OWNER_NAME || "Ednut"; //set bot owner name here 
 global.botname = process.env.BOT_NAME || "αrch md";
 global.author = process.env.AUTHOR  || "Ednut";
@@ -20,7 +20,7 @@ global.thumb = process.env.THUMB_IMAGE || 'https://files.catbox.moe/1uhvld.jpg';
 global.footer = process.env.FOOTER || '🤖 © wa bot';
 global.onlypc = process.env.ONLYPC_MSG  || "Sorry buddy the bot won't work directly in group chat to reduce spam use in private chat";
 global.onlygc = process.env.ONLYGC_MSG  || "Sorry buddy the bot won't work directly in private chat to reduce spam use in group";
-global.session = process.env.SESSION_ID || "Arch_3a337bcf4b4bbdedc015f7f2598d9311";
+global.session = process.env.SESSION_ID || "Arch_8ceb88b9126aaec243f6d91e5bef3641";
 global.simbol = process.env.SYMBOL || '♘';
 global.menutype = process.env.MENU_TYPE  || "v2";
 global.warn = process.env.WARN || "3";
